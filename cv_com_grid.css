@@ -1,0 +1,91 @@
+body{
+    background-color: lightblue;
+}
+
+.principal{
+    background-color: white;
+    margin: 0 200px 0 200px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 70%;
+}
+
+.lado_esquerdo{
+    background-color: #355586;
+}
+
+
+
+.foto_perfil{
+    margin: 70px;
+    border-radius: 50%;
+}
+
+.titulo_contato{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.material-icons.icone_branco{
+    color: white;
+}
+
+.bloco_informacao{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    width: 100%;
+    align-items: center;
+}
+
+.descricao{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 16px;
+}
+section{
+    margin-bottom: 50px;
+}
+.lado_direito{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+}
+#cabecalho, #competencia, #experiencia, #formacao_academica  {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#cabecalho h1{
+    text-transform: uppercase;
+    color: #355586;
+}
+#cabecalho h3{
+    color: gray;
+}
+
+.lado_direito h4{
+    color: gray;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.nome_empresa{
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+.desc_empresa{
+    color: black;
+    margin: 0;
+ 
+}
+.exp_empresa{
+    margin-bottom: 10px;
+}
